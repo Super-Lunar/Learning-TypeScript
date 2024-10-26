@@ -1,2 +1,8 @@
-var msg = "Hello World!";
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// to get rid of this error we add export {} at top
+// after this the file is treated as module
+var msg = "Learning TypeScript";
+// we got an error "cannot redeclare block scoped variable 'msg'"
+// this happens the file is treated as a script rather than module
 console.log(msg);
