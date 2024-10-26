@@ -4,3 +4,5 @@ to automatically recompile the typescript file to js
         tsc main --watch
 
 
+to assign type 
+    
