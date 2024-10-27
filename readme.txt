@@ -25,3 +25,11 @@ so tsc 3.0 introduced new type called unknown
 however we can't access any properties of unknown
 also we can't call or construct them
 to bypass this we have to use type assertion
+
+ to assign multitype to a variable 
+let multiType : number | boolean = true
+
+ number | boolean is called union types 
+
+ using union types instead of any types gives us intellisense support
+ 
