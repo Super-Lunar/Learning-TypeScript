@@ -17,4 +17,11 @@ for array
 
 
 if you're unsure about variable type 
-    assign anytype
+    assign any type
+
+any type has few issues as no type checking occurs 
+so tsc 3.0 introduced new type called unknown
+
+however we can't access any properties of unknown
+also we can't call or construct them
+to bypass this we have to use type assertion
