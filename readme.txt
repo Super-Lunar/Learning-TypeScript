@@ -32,4 +32,16 @@ let multiType : number | boolean = true
  number | boolean is called union types 
 
  using union types instead of any types gives us intellisense support
- 
+
+
+ for function 
+
+ function name(params1:type1,params2:type2):returnType {}
+
+ for optional parameters
+ use ? after parameters (note: order of parameter matters)
+
+ function name(params1:type1,params2?:type2):returnType {}
+
+ for default parameters
+ function name(params1:type1,params2:type2 = value):returnType {}
