@@ -45,3 +45,9 @@ let multiType : number | boolean = true
 
  for default parameters
  function name(params1:type1,params2:type2 = value):returnType {}
+
+class
+access modifiers - set accessibility of properties and methods in a class
+public - default
+private -can't be accessed from anywhere outside the class
+protected - can't be accessed from outside but can be accessed from derived class
